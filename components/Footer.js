@@ -152,7 +152,7 @@ export default function Footer() {
 
       {/* Floating hotline */}
       <a href="tel:0901234567" className="ls-hotline"
-        style={{ position: 'fixed', bottom: 22, right: 22, zIndex: 90, display: 'flex', alignItems: 'center', gap: 10, backgroundColor: '#fff', borderRadius: 999, padding: '7px 18px 7px 7px', boxShadow: '0 10px 30px rgba(68,92,44,0.32)', textDecoration: 'none', border: '1px solid #e6e1d0' }}>
+        style={{ position: 'fixed', bottom: 22, left: 22, zIndex: 90, display: 'flex', alignItems: 'center', gap: 10, backgroundColor: '#fff', borderRadius: 999, padding: '7px 18px 7px 7px', boxShadow: '0 10px 30px rgba(68,92,44,0.32)', textDecoration: 'none', border: '1px solid #e6e1d0' }}>
         <span style={{ width: 42, height: 42, borderRadius: 999, background: `linear-gradient(135deg, ${GREEN}, ${GREEN_DARK})`, color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', animation: 'lsRing 1.6s ease-in-out infinite' }}>
           <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
         </span>
